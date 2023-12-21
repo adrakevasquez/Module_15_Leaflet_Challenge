@@ -80,10 +80,10 @@ d3.json(url).then(function (data) { //pull the earthquake JSON data with d3
 function getColor(d) {
     return d < 0 ? 'rgb(144,238,144)' :
           d < 10  ? 'rgb(144,238,144)' :
-          d < 30  ? 'rgb(144,238,144)' :
-          d < 50  ? 'rgb(144,238,144)' :
-          d < 70  ? 'rgb(255, 218, 165)' :
-          d < 90  ? 'rgb(144,238,144)' :
+          d < 30  ? 'rgb(154, 205, 50)' :
+          d < 50  ? 'rgb(255, 255, 0)' :
+          d < 70  ? 'rgb(255, 165, 0)' :
+          d < 90  ? 'rgb(255, 105, 0)' :
                          'rgb(255,105,105)';
     
     }
